@@ -742,7 +742,10 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
-  .nav {
+  body {
+    overflow-x: hidden;
+  }
+    .nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
